@@ -5,3 +5,4 @@ logstash-8.0.1
 __example
 __installed
 *.tar.gz
+.env

@@ -59,8 +59,6 @@ curl --cacert config/certs/http_ca.crt -u elastic https://localhost:9200
 }
 ```
 
-6XU9t8-Ja68s_eJqeF8\*
-
 ### 클러스터 상태 진단 API
 
 - 인스턴스 상태 `green`, 할당되지 않은 샤드가 없는지 확인 가능
