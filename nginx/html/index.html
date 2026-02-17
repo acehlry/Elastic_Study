@@ -1,23 +1,38 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+
+<html lang="en">
+
 <head>
-<title>Welcome to nginx!</title>
-<style>
-html { color-scheme: light dark; }
-body { width: 35em; margin: 0 auto;
-font-family: Tahoma, Verdana, Arial, sans-serif; }
-</style>
+    <meta charset="utf-8">
+
+    <title>Recipe Search Service</title>
+    <meta name="description" content="This page implements high speed array.find(), right in the browser, for all your search needs.">
+    <meta name="author" content="Asjad Athick">
+
+    <!--   google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <!-- External Stylesheet.  -->
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    </link>
+    <!--   font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
 </head>
+
 <body>
-<h1>Welcome to nginx!</h1>
-<p>If you see this page, the nginx web server is successfully installed and
-working. Further configuration is required.</p>
 
-<p>For online documentation and support please refer to
-<a href="http://nginx.org/">nginx.org</a>.<br/>
-Commercial support is available at
-<a href="http://nginx.com/">nginx.com</a>.</p>
+    <body id="body" onload="generateImage()">
+        <h1>Recipe Search Service</h1>
+        <p id="intro">Welcome to Recipe Search Service.<br>Search through 10s of tried and test culinary classics, right here in your browser. <br> Recipe Search Service is powered by <span>JavaScript Array.find()</span> for performant and relevant search results.
+        </p>
+        <h2 id="recipe-banner"></h2>
 
-<p><em>Thank you for using nginx.</em></p>
+        <input id="recipesearch" type="text" placeholder="Search for 'Burrito' here..." onkeyup="search()">
+
+        <p id='results'></p>
+    </body>
+    <script src="js/scripts.js"></script>
 </body>
+
 </html>

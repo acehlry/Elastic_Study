@@ -14,3 +14,8 @@
 ::1 - - [17/Feb/2026:17:36:27 +0900] "GET /js/scripts.js HTTP/1.1" 304 0 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
 ::1 - - [17/Feb/2026:17:36:28 +0900] "GET /favicon.ico HTTP/1.1" 302 145 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
 ::1 - - [17/Feb/2026:17:36:28 +0900] "GET /404.html HTTP/1.1" 304 0 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+::1 - - [17/Feb/2026:21:50:52 +0900] "GET / HTTP/1.1" 200 1520 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+::1 - - [17/Feb/2026:21:50:52 +0900] "GET /css/style.css HTTP/1.1" 200 1010 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+::1 - - [17/Feb/2026:21:50:52 +0900] "GET /js/scripts.js HTTP/1.1" 200 1823 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+::1 - - [17/Feb/2026:21:50:54 +0900] "GET /favicon.ico HTTP/1.1" 302 145 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+::1 - - [17/Feb/2026:21:50:54 +0900] "GET /404.html HTTP/1.1" 200 322 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"

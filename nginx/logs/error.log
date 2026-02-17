@@ -7,3 +7,5 @@
 2026/02/17 16:49:12 [notice] 78118#0: signal process started
 2026/02/17 16:49:37 [error] 78176#0: *4 open() "/home/char1ey/workspace/Elastic_Study/elastic-stack-server/Getting-Started-with-Elastic-Stack-8.0/Chapter6/html-webpage/favicon.ico" failed (2: No such file or directory), client: ::1, server: 34.87.230.207, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
 2026/02/17 17:36:28 [error] 78176#0: *6 open() "/home/char1ey/workspace/Elastic_Study/elastic-stack-server/Getting-Started-with-Elastic-Stack-8.0/Chapter6/html-webpage/favicon.ico" failed (2: No such file or directory), client: ::1, server: 34.87.230.207, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2026/02/17 21:50:54 [error] 9124#0: *2 open() "/home/char1ey/workspace/Elastic_Study/nginx/html/favicon.ico" failed (2: No such file or directory), client: ::1, server: 34.87.230.207, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2026/02/17 21:51:11 [notice] 9329#0: signal process started
