@@ -4,3 +4,4 @@ kibana-8.0.1
 logstash-8.0.1
 __example
 __installed
+*.tar.gz
